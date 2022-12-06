@@ -3,6 +3,4 @@ kind: DBaaSPolicy
 metadata:
   name: cluster
   namespace: {{ .Values.provider.admNamespace }}
-spec:
-  connectionNamespaces:
-  - '*'
+
